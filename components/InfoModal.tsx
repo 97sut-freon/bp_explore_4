@@ -44,6 +44,7 @@ const InfoModal: React.FC<InfoModalProps> = ({ isOpen, onClose }) => {
               <li><span className="font-semibold">Suche nach ID:</span> Direkte Suche nach der ID von Projekten, Organisationen oder Spendenaktionen.</li>
               <li><span className="font-semibold">Suche nach Kontakt:</span> Findet alle Entitäten, die einem bestimmten Ansprechpartner zugeordnet sind (z.B. "Max Mustermann", "Mustermann", "M. Mustermann").</li>
               <li><span className="font-semibold">Suche nach Organisation:</span> Eine flexible Suche, die auch bei ungenauen Namen oder Tippfehlern Organisationen findet und deren Projekte direkt mit anzeigt.</li>
+              <li><span className="font-semibold">Suche nach Projekt/Event:</span> Durchsucht die Titel von Projekten und Spendenaktionen flexibel nach passenden Begriffen.</li>
             </ul>
           </div>
 
